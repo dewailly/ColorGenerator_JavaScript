@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(./Lato-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: .5s linear;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bgInfos {
+    background: black;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+#btn {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    border: none;
+    background: none;
+    font-family: Lato-Bold;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
